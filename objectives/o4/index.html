@@ -722,7 +722,7 @@ You can use <code>&lt;br/&gt;</code> to ensure each sentence starts on a new lin
 <p>While on the island, make sure to hang your Christmas lights on a palm tree. It’s not only festive but also a great beacon for Santa to find you!</p>
 </div>
 <h3 id="code-blocks">Code blocks<a class="headerlink" href="#code-blocks" title="Permanent link">⚓︎</a></h3>
-<div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Countdown script with line 9 highlighted</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Countdown script (with line 7 highlighted)</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
 <span class="normal"> 2</span>
 <span class="normal"> 3</span>
 <span class="normal"> 4</span>
@@ -731,20 +731,16 @@ You can use <code>&lt;br/&gt;</code> to ensure each sentence starts on a new lin
 <span class="normal"> 7</span>
 <span class="normal"> 8</span>
 <span class="normal"> 9</span>
-<span class="normal">10</span>
-<span class="normal">11</span>
-<span class="normal">12</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="ch">#!/bin/bash</span>
+<span class="normal">10</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="ch">#!/bin/bash</span>
 <span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;Christmas Holiday Countdown&quot;</span>
 
-<span class="nv">current_day</span><span class="o">=</span><span class="k">$(</span>date<span class="w"> </span>+<span class="s2">&quot;%j&quot;</span><span class="k">)</span>
-<span class="nv">christmas_day</span><span class="o">=</span><span class="k">$(</span>date<span class="w"> </span>-jf<span class="w"> </span><span class="s2">&quot;%m-%d&quot;</span><span class="w"> </span><span class="s2">&quot;12-25&quot;</span><span class="w"> </span>+<span class="s2">&quot;%j&quot;</span><span class="k">)</span>
+<span class="nv">days_until_xmas</span><span class="o">=</span><span class="k">$(($(</span>date<span class="w"> </span>-d<span class="w"> </span><span class="s2">&quot;Dec 25&quot;</span><span class="w"> </span>+%j<span class="k">)</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="k">$(</span>date<span class="w"> </span>+%j<span class="k">)))</span>
 
-<span class="k">if</span><span class="w"> </span><span class="o">[</span><span class="w"> </span><span class="s2">&quot;</span><span class="nv">$christmas_day</span><span class="s2">&quot;</span><span class="w"> </span>-ge<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$current_day</span><span class="s2">&quot;</span><span class="w"> </span><span class="o">]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
-<span class="w">  </span><span class="nv">days_until_xmas</span><span class="o">=</span><span class="k">$((</span><span class="nv">christmas_day</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="nv">current_day</span><span class="k">))</span>
-<span class="hll"><span class="w">  </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;Only </span><span class="nv">$days_until_xmas</span><span class="s2"> days until Christmas!&quot;</span>
-</span><span class="k">else</span>
-<span class="w">  </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;Christmas has passed! Hope you had an awesome time!&quot;</span>
-<span class="k">fi</span>
+<span class="k">if</span><span class="w"> </span><span class="o">[</span><span class="w"> </span><span class="nv">$days_until_xmas</span><span class="w"> </span>-ge<span class="w"> </span><span class="m">0</span><span class="w"> </span><span class="o">]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<span class="w">  </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;Only </span><span class="nv">$days_until_xmas</span><span class="s2"> days until Christmas!&quot;</span>
+<span class="k">else</span>
+<span class="hll"><span class="w">  </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;Christmas has passed! Hope you had a great time!&quot;</span>
+</span><span class="k">fi</span>
 </code></pre></div></td></tr></table></div>
 <h3 id="tables">Tables<a class="headerlink" href="#tables" title="Permanent link">⚓︎</a></h3>
 <table>
