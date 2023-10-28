@@ -32,7 +32,7 @@ Details such as the site name, site author, and contents of the sidebar navigati
 
 ### Publish Your Report
 
-**IMPORTANT**: Make sure to configure your forked GitHub repository as _Private_ while SANS Holiday Hack Challenge is ongoing so no solutions or spoilers are accidentally leaked to the public!
+**IMPORTANT**: Make sure to configure your forked GitHub repository as _Private_ while SANS Holiday Hack Challenge is ongoing. This way, no solutions or spoilers are accidentally leaked to the public!
 
 Once the submission deadline has passed you are free to share your finalized report with the world. Run the `mkdocs gh-deploy` command in a terminal to create all the required HTML assets and push them to a `gh-pages` branch on GitHub. To serve the HTML content as a website go the _Pages_ section in the GitHub settings for the forked repository, select _Deploy from a branch_ for the _Source_ and make sure the _Branch_ is set to _gh-pages_.
 
