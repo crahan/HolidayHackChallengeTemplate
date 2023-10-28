@@ -15,7 +15,7 @@ This is the template I've used for my 2020, 2021, and 2022 SANS Holiday Hack Cha
 ### Install Python Environment
 
 1. Fork this repository to your own GitHub account and configure it as _Private_.
-2. Clone the forked repository to your computer using `git clone <repository_url>`.
+2. Clone the forked repository to your computer using `git clone <forked_repository_url>`.
 3. Navigate into the folder using `cd <cloned_folder_name>`.
 4. Create a Python virtual environment using `python3 -m venv venv`.
 5. Activate the environment using `. ./venv/bin/activate` (for a Bash shell environment).
