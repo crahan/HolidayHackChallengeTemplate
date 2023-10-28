@@ -14,9 +14,18 @@ The finalized reports and associated repositories can be found at:
 
 ## Setup
 
+### Install Python Environment
+
 1. Clone the repository using `git clone https://...`
 2. Navigate into the folder using `cd hhctemplate`
 3. Create a Python virtual environment using `python3 -m venv venv`
 4. Activate the environment using `. ./venv/bin/activate` (for a Bash shell environment)
 5. Install the Python package dependencies using `pip install -r requirements`
-6.
+
+### Add Your Content
+
+...
+
+### Push Your Changes to GitHub
+
+...
