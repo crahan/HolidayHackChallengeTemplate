@@ -31,4 +31,4 @@ Once the submission deadline has passed you are free to share your report with t
 
 ![GitHub Settings](./img/github_settings.png)
 
-After a few minutes your writeup will be live at `https://<username>.github.io/<repository>` with `<username` your GitHub username and `<repository>` the name of your GitHub repository you forked the [HHC Template]https://github.com/crahan/HolidayHackChallenge2020/ project to.
+After a few minutes your writeup will be live at `https://<username>.github.io/<repository>`, with `<username` your GitHub username and `<repository>` the name of your GitHub repository where you forked the [HolidayHackChallengeTemplate](https://github.com/crahan/HolidayHackChallenge2020/) project to.
