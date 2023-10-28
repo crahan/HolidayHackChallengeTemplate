@@ -1,0 +1,102 @@
+# Update the sitename 
+site_name: "SANS HHC Write-Up"
+site_author: Author Name
+site_url: https://.../
+theme:
+  icon:
+    # Material for MkDocs bundles several icon sets:
+    # - Material Design (https://materialdesignicons.com/)
+    # - FontAwesome (https://fontawesome.com/search?m=free)
+    # - Octicons (https://octicons.github.com/)
+    # - Simple Icons (https://simpleicons.org/)
+    # Below are some logo icon option examples: 
+    # logo: fontawesome/regular/snowflake
+    # logo: fontawesome/solid/sleigh
+    # logo: fontawesome/solid/tree
+    # logo: material/rocket-launch
+    logo: fontawesome/solid/candy-cane
+  name: material
+  favicon: img/misc/favicon.ico
+  features:
+    - toc.integrate
+    - content.code.copy
+    - navigation.sections
+    #- navigation.instant
+    #- navigation.top
+    #- navigation.tabs
+    #- navigation.tabs.sticky
+    #- navigation.expand
+    #- navigation.top
+    #- navigation.prune
+    #- toc.follow
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-night 
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+extra:
+  social:
+    - icon: fontawesome/brands/mastodon
+      link: https://mastodon.social/@...
+      name: Mastodon
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/...
+      name: Twitter
+    - icon: fontawesome/brands/github
+      link: https://github.com/...
+      name: GitHub
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/...
+      name: CInstagram
+extra_css:
+  - css/extra.css
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+  - js/tablesort.js
+markdown_extensions:
+  - abbr
+  - attr_list
+  - admonition
+  - meta
+  - footnotes
+  - def_list
+  - toc:
+      permalink: ⚓︎
+      toc_depth: 2
+  - pymdownx.details
+  - pymdownx.keys
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+nav:
+- Welcome: 'index.md'
+- Objectives:
+  - Section 1:
+    - Objective 1: 'objectives/o1.md'
+  - Section 2:
+    - Objective 2: 'objectives/o2.md'
+    - Objective 3: 'objectives/o3.md'
+  - Section 3:
+    - Objective 4: 'objectives/o4.md'
+    - Objective 5: 'objectives/o5.md'
+- Extras:
+  - Easter Eggs: 'easter_eggs.md'
