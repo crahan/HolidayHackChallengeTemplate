@@ -12,7 +12,7 @@ This is the template I've used for my 2020, 2021, and 2022 SANS Holiday Hack Cha
 
 ## Setup
 
-### Install Python Environment
+### Set Up Your Python Environment
 
 1. Fork this repository to your own GitHub account and configure it as _Private_.
 2. Clone the forked repository to your computer using `git clone <forked_repository_url>`.
