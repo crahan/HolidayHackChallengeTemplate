@@ -18,7 +18,7 @@ The below two admonition blocks explain the 50-page submission limitation and ho
 
 ## Answers
 
-!!! success "1. Insert Objective 1 Title- :fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star:"
+!!! success "1. Insert Objective 1 Title - :fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star:"
     Insert [your answer](./objectives/o1.md) here.
 
 !!! success "2. Insert Objective 2 Title - :fontawesome-solid-star::fontawesome-solid-star::fontawesome-regular-star::fontawesome-regular-star::fontawesome-regular-star:"
