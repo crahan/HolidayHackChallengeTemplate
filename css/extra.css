@@ -1,0 +1,118 @@
+div.md-content p img.border {
+    border: 1px solid #d7d7d7;
+}
+
+article.md-content__inner {
+    padding-bottom: 0.8rem;
+}
+
+.video-wrapper {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+}
+
+.video-wrapper>iframe {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+th.filename .highlight span.filename {
+    margin-top: 0;
+}
+
+/*table thead {
+    background-color: rgba(0, 0, 0, .500);
+    color: #ffffff;
+}*/
+
+/* Previous adminitions style */
+.md-typeset .admonition,
+.md-typeset details {
+    border-width: 0;
+    border-left-width: 4px;
+}
+
+/* Code adminitions icons */
+:root {
+    --md-admonition-icon--cli: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M0 2.75C0 1.784.784 1 1.75 1h12.5c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0 1 14.25 15H1.75A1.75 1.75 0 0 1 0 13.25V2.75zm1.75-.25a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V2.75a.25.25 0 0 0-.25-.25H1.75zM7.25 8a.75.75 0 0 1-.22.53l-2.25 2.25a.75.75 0 1 1-1.06-1.06L5.44 8 3.72 6.28a.75.75 0 1 1 1.06-1.06l2.25 2.25c.141.14.22.331.22.53zm1.5 1.5a.75.75 0 0 0 0 1.5h3a.75.75 0 0 0 0-1.5h-3z"/></svg>');
+    --md-admonition-icon--javascript: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z"/></svg>');
+    --md-admonition-icon--html: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.89 3 1.96.4L11.11 21l-1.96-.4L12.89 3m6.7 9L16 8.41V5.58L22.42 12 16 18.41v-2.83L19.59 12M1.58 12 8 5.58v2.83L4.41 12 8 15.58v2.83L1.58 12Z"/></svg>');
+    --md-admonition-icon--python: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.14 7.5A2.86 2.86 0 0 1 22 10.36v3.78A2.86 2.86 0 0 1 19.14 17H12c0 .39.32.96.71.96H17v1.68a2.86 2.86 0 0 1-2.86 2.86H9.86A2.86 2.86 0 0 1 7 19.64v-3.75a2.85 2.85 0 0 1 2.86-2.85h5.25a2.85 2.85 0 0 0 2.85-2.86V7.5h1.18m-4.28 11.79c-.4 0-.72.3-.72.89 0 .59.32.71.72.71a.71.71 0 0 0 .71-.71c0-.59-.32-.89-.71-.89m-10-1.79A2.86 2.86 0 0 1 2 14.64v-3.78A2.86 2.86 0 0 1 4.86 8H12c0-.39-.32-.96-.71-.96H7V5.36A2.86 2.86 0 0 1 9.86 2.5h4.28A2.86 2.86 0 0 1 17 5.36v3.75a2.85 2.85 0 0 1-2.86 2.85H8.89a2.85 2.85 0 0 0-2.85 2.86v2.68H4.86M9.14 5.71c.4 0 .72-.3.72-.89 0-.59-.32-.71-.72-.71-.39 0-.71.12-.71.71s.32.89.71.89Z"/></svg>');
+    --md-admonition-icon--text: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="m365.3 93.38-74.63-74.64C278.6 6.742 262.3 0 245.4 0H64C28.65 0 0 28.65 0 64l.006 384c0 35.34 28.65 64 64 64H320c35.2 0 64-28.8 64-64V138.6c0-16.9-6.7-33.2-18.7-45.22zM336 448c0 8.836-7.164 16-16 16H64.02c-8.838 0-16-7.164-16-16L48 64.13c0-8.836 7.164-16 16-16h160V128c0 17.67 14.33 32 32 32h79.1v288zM96 280c0 13.3 10.8 24 24 24h144c13.3 0 24-10.7 24-24s-10.7-24-24-24H120c-13.2 0-24 10.8-24 24zm168 72H120c-13.2 0-24 10.8-24 24s10.75 24 24 24h144c13.25 0 24-10.75 24-24s-10.7-24-24-24z"/></svg>');
+}
+
+/* Code adminitions common styling */
+.md-typeset .admonition.cli,
+.md-typeset details.cli,
+.md-typeset .admonition.javascript,
+.md-typeset details.javascript,
+.md-typeset .admonition.html,
+.md-typeset details.html,
+.md-typeset .admonition.python,
+.md-typeset details.python,
+.md-typeset .admonition.text,
+.md-typeset details.text {
+    border-color: rgb(124, 77, 255);
+}
+
+.md-typeset .cli>.admonition-title,
+.md-typeset .cli>summary,
+.md-typeset .javascript>.admonition-title,
+.md-typeset .javascript>summary,
+.md-typeset .html>.admonition-title,
+.md-typeset .html>summary,
+.md-typeset .python>.admonition-title,
+.md-typeset .python>summary,
+.md-typeset .text>.admonition-title,
+.md-typeset .text>summary {
+    background-color: rgba(124, 77, 255, 0.1);
+}
+
+/* CLI adminition title */
+.md-typeset .cli>.admonition-title::before,
+.md-typeset .cli>summary::before {
+    background-color: rgb(124, 77, 255);
+    -webkit-mask-image: var(--md-admonition-icon--cli);
+    mask-image: var(--md-admonition-icon--cli);
+}
+
+/* JavaScript adminition title */
+.md-typeset .javascript>.admonition-title::before,
+.md-typeset .javascript>summary::before {
+    background-color: rgb(124, 77, 255);
+    -webkit-mask-image: var(--md-admonition-icon--javascript);
+    mask-image: var(--md-admonition-icon--javascript);
+}
+
+/* HTML adminition title */
+.md-typeset .html>.admonition-title::before,
+.md-typeset .html>summary::before {
+    background-color: rgb(124, 77, 255);
+    -webkit-mask-image: var(--md-admonition-icon--html);
+    mask-image: var(--md-admonition-icon--html);
+}
+
+/* Python adminition title */
+.md-typeset .python>.admonition-title::before,
+.md-typeset .python>summary::before {
+    background-color: rgb(124, 77, 255);
+    -webkit-mask-image: var(--md-admonition-icon--python);
+    mask-image: var(--md-admonition-icon--python);
+}
+
+/* Text adminition title */
+.md-typeset .text>.admonition-title::before,
+.md-typeset .text>summary::before {
+    background-color: rgb(124, 77, 255);
+    -webkit-mask-image: var(--md-admonition-icon--text);
+    mask-image: var(--md-admonition-icon--text);
+}
