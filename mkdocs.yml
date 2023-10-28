@@ -1,7 +1,6 @@
 # Update the sitename 
-site_name: "SANS HHC Write-Up"
-site_author: Author Name
-site_url: https://.../
+site_name: SANS HHC Write-Up
+site_author: Insert Author name
 theme:
   icon:
     # Material for MkDocs bundles several icon sets:
@@ -9,11 +8,10 @@ theme:
     # - FontAwesome (https://fontawesome.com/search?m=free)
     # - Octicons (https://octicons.github.com/)
     # - Simple Icons (https://simpleicons.org/)
-    # Below are some logo icon option examples: 
+    # Below are some suitable logo examples: 
     # logo: fontawesome/regular/snowflake
     # logo: fontawesome/solid/sleigh
     # logo: fontawesome/solid/tree
-    # logo: material/rocket-launch
     logo: fontawesome/solid/candy-cane
   name: material
   favicon: img/misc/favicon.ico
@@ -46,18 +44,15 @@ theme:
         name: Switch to light mode
 extra:
   social:
-    - icon: fontawesome/brands/mastodon
-      link: https://mastodon.social/@...
-      name: Mastodon
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/...
+      link: https://twitter.com/<twitter_username>
       name: Twitter
     - icon: fontawesome/brands/github
-      link: https://github.com/...
+      link: https://github.com/<github_username>
       name: GitHub
     - icon: fontawesome/brands/instagram
-      link: https://www.instagram.com/...
-      name: CInstagram
+      link: https://www.instagram.com/<instagram_username>
+      name: Instagram
 extra_css:
   - css/extra.css
 extra_javascript:
