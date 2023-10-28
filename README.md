@@ -20,11 +20,11 @@ This is the template I've used for my 2020, 2021, and 2022 SANS HHC submissions.
 4. Create a Python virtual environment using `python3 -m venv venv`.
 5. Activate the environment using `. ./venv/bin/activate` (for a Bash shell environment).
 6. Install the Python package dependencies using `pip install -r requirements`.
-7. Run `mkdocs serve` to start a local copy of the website on http://127.0.0.1:8000/.
+7. Run `mkdocs serve` to start a local copy of the website at `http://127.0.0.1:8000/`.
 
 ### Add Your Content
 
-Details such as the site name, site author, and contents of the sidebar navigation are configured in the [`mkdocs.yml`](mkdocs.yml) file. The write-up itself and associated assets are located in the [`docs`](docs/) folder. The default configuration stores the write-up for each objective in a `docs/objectives/oX.md` file and associated images for that objective in a `docs/img/objectives/oX/` folder. As you add content and make changes to files, MkDocs will automatically update the site at http://127.0.0.1:8000/.
+Details such as the site name, site author, and contents of the sidebar navigation are configured in the [`mkdocs.yml`](mkdocs.yml) file. The write-up itself and associated assets are located in the [`docs`](docs/) folder. The default configuration stores the write-up for each objective in a `docs/objectives/oX.md` file and associated images for that objective in a `docs/img/objectives/oX/` folder. As you add content and make changes to files, MkDocs will automatically update the local copy of the website at `http://127.0.0.1:8000/`.
 
 **Note**: More information on how to make changes to MkDocs settings or the Material theme configuration is available at https://www.mkdocs.org/user-guide/writing-your-docs/ and https://squidfunk.github.io/mkdocs-material/reference/, respectively.
 
