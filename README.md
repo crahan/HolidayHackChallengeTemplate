@@ -29,6 +29,6 @@ This is the template I've used for my 2020, 2021, and 2022 SANS HHC submissions.
 
 Once the submission deadline has passed you are free to share your report with the world, using `mkdocs gh-deploy`. This will create all the required HTML assets and push them to a `gh-pages` branch on GitHub. To serve the HTML content as a website go the _Pages_ section in the GitHub settings for the forked repository, select _Deploy from a branch_ for the _Source_ and make sure the _Branch_ is set to _gh-pages_.
 
-![GitHub Settings](./imgs/github_settings.png)
+![GitHub Settings](./img/github_settings.png)
 
 After a few minutes your writeup will be live at `https://<username>.github.io/<repository>` with `<username` your GitHub username and `<repository>` the name of your GitHub repository you forked the [HHC Template]https://github.com/crahan/HolidayHackChallenge2020/ project to.
