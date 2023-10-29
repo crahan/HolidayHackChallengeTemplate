@@ -1,4 +1,4 @@
-# Update the sitename 
+# Reference: https://squidfunk.github.io/mkdocs-material/reference/
 site_name: SANS HHC Write-Up
 site_author: Insert Author name
 theme:
@@ -11,8 +11,8 @@ theme:
     # Below are some suitable logo examples: 
     # logo: fontawesome/regular/snowflake
     # logo: fontawesome/solid/sleigh
-    # logo: fontawesome/solid/tree
-    logo: fontawesome/solid/candy-cane
+    # logo: fontawesome/solid/candy-cane
+    logo: fontawesome/solid/tree
   name: material
   favicon: img/misc/favicon.ico
   features:
@@ -28,6 +28,16 @@ theme:
     #- navigation.prune
     #- toc.follow
   palette:
+    # Material for MkDocs supports a light (default) and dark (slate) theme.
+    # Each mode supports configurable primary and accent colors.
+    # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
+    # Primary colors:
+    # red, pink, purple, deep purple, indigo, blue, light blue, cyan, teal,
+    # green, light green, lime, yellow, amber, orange, deep orange, brown,
+    # grey, blue grey, black, and white.
+    # Accent colors:
+    # red, pink, purple, deep purple, indigo, blue, light blue, cyan, teal,
+    # green, light green, lime, yellow, amber, orange, and deep orange.
     # Palette toggle for light mode
     - scheme: default
       primary: teal
@@ -87,6 +97,7 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
 nav:
+# The 'nav' section defines the content of the sidebar navigation.
 - Welcome: 'index.md'
 - Objectives:
   - Section 1:
