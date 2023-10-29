@@ -2,13 +2,14 @@
 
 ## About
 
-This is the template I've used for my 2020, 2021, and 2022 SANS Holiday Hack Challenge submissions. It's based on [MkDocs](https://www.mkdocs.org) and the [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) theme. Examples of winning reports and their repositories can be found at:
+This is the template I've used for my 2020, 2021, and 2022 SANS Holiday Hack Challenge submissions. It's based on [MkDocs](https://www.mkdocs.org) and the [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) theme. The website based on this template and examples of winning reports and their repositories can be found at:
 
-| Report                                   | GitHub repository                                  |
-| ---------------------------------------- | -------------------------------------------------- |
-| https://n00.be/HolidayHackChallenge2020/ | https://github.com/crahan/HolidayHackChallenge2020 |
-| https://n00.be/HolidayHackChallenge2021/ | https://github.com/crahan/HolidayHackChallenge2021 |
-| https://n00.be/HolidayHackChallenge2022/ | https://github.com/crahan/HolidayHackChallenge2022 |
+| Report                                       | GitHub repository                                       |
+| -------------------------------------------- | ------------------------------------------------------- |
+| https://n00.be/HolidayHackChallengeTemplate/ | https://github.com/crahan/HolidayHackChallengeTemplate/ |
+| https://n00.be/HolidayHackChallenge2020/     | https://github.com/crahan/HolidayHackChallenge2020      |
+| https://n00.be/HolidayHackChallenge2021/     | https://github.com/crahan/HolidayHackChallenge2021      |
+| https://n00.be/HolidayHackChallenge2022/     | https://github.com/crahan/HolidayHackChallenge2022      |
 
 ## Setup
 

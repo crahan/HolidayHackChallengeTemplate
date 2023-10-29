@@ -6,7 +6,7 @@
 
 Provide a summary/overview of your report, including links to important sections like [Objectives](./objectives/o1.md) and [Easter eggs](./easter_eggs.md). This is also a good time to highlight and link to some of the awesome things you did like noteworthy hacks or custom scripts you created. Remember to make your report **fun** and **whimsical**! :wink:
 
-The below two admonition blocks explain the 50-page submission limitation and how to navigate the report. Please note that report size guidelines can change, so please make sure to carefully read any information provided to ensure you meet the requirements.
+The below two admonition blocks explain the 50-page submission limitation and how to navigate the report. Please note that report size and submission guidelines can change, so please make sure to carefully follow any instructions provided by Santa and the elves to ensure you meet the requirements.
 
 !!! note "50-page submission limit"
     Each year there's a huge number of write-ups that need to be reviewed by the Counter Hack team. To find a good middle ground between preventing information overload and creating a write-up that can stand on its own as a learning resource, some parts, like the *navigation tip* below, are collapsed by default. Skipping over these will not take away from understanding the overall solution, but feel free to expand them to get some additional information.
