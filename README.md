@@ -15,8 +15,8 @@ This is the template I've used for my 2020, 2021, and 2022 SANS Holiday Hack Cha
 
 ### Set Up Your Python Environment
 
-1. Fork this repository to your own GitHub account and configure it as _Private_.
-2. Clone the forked repository to your computer using `git clone <forked_repository_url>`.
+1. Make a copy of this repository in your own GitHub account and configure it as _Private_. Forking the repository won't work because a forked repository's visibility can not be changed to _Private_.
+2. Clone the copy of the repository to your computer using `git clone <repository_url>`.
 3. Navigate into the folder using `cd <cloned_folder_name>`.
 4. Create a Python virtual environment using `python3 -m venv venv`.
 5. Activate the environment using `. ./venv/bin/activate` (for a Bash shell environment).
@@ -33,10 +33,10 @@ Details such as the site name, site author, and contents of the sidebar navigati
 
 ### Publish Your Report
 
-**IMPORTANT**: Make sure to configure your forked GitHub repository as _Private_ while SANS Holiday Hack Challenge is ongoing. This way, no solutions or spoilers are accidentally leaked to the public!
+**IMPORTANT**: Make sure to configure your copied GitHub repository as _Private_ while SANS Holiday Hack Challenge is ongoing. This way, no solutions or spoilers are accidentally leaked to the public!
 
-Once the submission deadline has passed you are free to share your finalized report with the world. Run the `mkdocs gh-deploy` command in a terminal to create all the required HTML assets and push them to a `gh-pages` branch on GitHub. To serve the HTML content as a website go the _Pages_ section in the GitHub settings for the forked repository, select _Deploy from a branch_ for the _Source_ and make sure the _Branch_ is set to _gh-pages_.
+Once the submission deadline has passed you are free to share your finalized report with the world. Run the `mkdocs gh-deploy` command in a terminal to create all the required HTML assets and push them to a `gh-pages` branch on GitHub. To serve the HTML content as a website go the _Pages_ section in the GitHub settings for the copied repository, select _Deploy from a branch_ for the _Source_ and make sure the _Branch_ is set to _gh-pages_.
 
 ![GitHub Settings](./img/github_settings.png)
 
-After a few minutes your write-up will be live at `https://<username>.github.io/<repository>`, with `<username` your GitHub username and `<repository>` the name of your GitHub repository where you forked the [HolidayHackChallengeTemplate](https://github.com/crahan/HolidayHackChallengeTemplate/) project to.
+After a few minutes your write-up will be live at `https://<username>.github.io/<repository>`, with `<username` your GitHub username and `<repository>` the name of your GitHub repository where you copied the [HolidayHackChallengeTemplate](https://github.com/crahan/HolidayHackChallengeTemplate/) project to.
